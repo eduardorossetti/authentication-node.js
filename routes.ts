@@ -9,11 +9,6 @@ const authController = new AuthController();
 router
   .post("/auth", authController.execute)
   .post("/auth/refresh-token", authController.refreshToken)
-  .get("/admin/users", AuthMiddleware, () => {
-    console.log({ success: true });
-  })
-  .get("/admin/users/:id", AuthMiddleware, () => {
-    console.log({ success: true });
-  });
+  .get("/users", AuthMiddleware, authController.get)
 
 export default router;

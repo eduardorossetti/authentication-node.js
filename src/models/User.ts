@@ -3,5 +3,4 @@ export default interface User {
   email: string;
   phone: string;
   password: string;
-  user_group: number;
 }

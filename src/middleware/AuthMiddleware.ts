@@ -16,8 +16,10 @@ export const AuthMiddleware = async (
       });
       res.set("authorization", tokens.token);
       res.set("refresh_token", tokens.refresh_token);
+
       next();
       return;
+      
     }
     throw new Error("Authorization and Refresh Token are required!");
   } catch (err: any) {
