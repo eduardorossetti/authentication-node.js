@@ -17,9 +17,9 @@ This project is an example of a scalable authentication system built using TypeS
 
 ## How to Use
 1. **Clone the Repository**: git clone https://github.com/eduardorossetti/authentication-node.js.git
-2. **Install Dependencies**: Navigate to the project directory and run: npm install
-3. **Compile TypeScript**: npm run build
-4. **Start the Server**: npm start
+2. **Install Dependencies**: Navigate to the project directory and run: yarn install
+3. **Compile TypeScript**: yarn run build
+4. **Start the Server**: yarn start
 
 ## Contributions
 Your contributions are welcome! If you have suggestions to improve the application or add new features, feel free to create a pull request or open an issue.
